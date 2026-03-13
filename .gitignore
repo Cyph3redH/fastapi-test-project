@@ -1,0 +1,47 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv/
+virtualenv/
+
+# Python кэш
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+
+# Базы данных (если используешь)
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Логи
+*.log
+logs/
+
+# Переменные окружения (секреты)
+.env
+*.env
+.env.local
+.env.*.local
+
+# Дистрибутивы / сборки
+dist/
+build/
+*.egg-info/
+
+# Тестовые файлы
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
